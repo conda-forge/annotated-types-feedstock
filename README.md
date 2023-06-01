@@ -1,11 +1,11 @@
-About annotated-types
-=====================
+About annotated-types-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/annotated-types-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/annotated-types/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/annotated-types-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reusable constraint types to use with typing.Annotated
 
