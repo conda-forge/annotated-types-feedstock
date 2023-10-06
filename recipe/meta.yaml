@@ -1,5 +1,5 @@
 {% set name = "annotated-types" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/annotated_types-{{ version }}.tar.gz
-  sha256: 47cdc3490d9ac1506ce92c7aaa76c579dc3509ff11e098fc867e5130ab7be802
+  sha256: 563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d
 
 build:
   noarch: python
