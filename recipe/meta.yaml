@@ -1,6 +1,6 @@
 {% set name = "annotated-types" %}
 {% set alt_name = name.replace('-','_') %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ alt_name }}/{{ alt_name }}-{{ version }}.tar.gz
-  sha256: 563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d
+  sha256: aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89
 
 build:
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
